@@ -5,9 +5,9 @@ var wave : int
 var lives : int
 
 func _ready():
-	wave = 10
-	lives = 30
-	max_enemies = 50
+	wave = 1
+	lives = 3
+	max_enemies = 5
 	
 	
 	

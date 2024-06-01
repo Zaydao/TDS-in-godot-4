@@ -21,6 +21,7 @@ script = ExtResource("5_50wb2")
 bullet_scene = ExtResource("6_dw282")
 
 [node name="player" parent="." instance=ExtResource("2_vvc3a")]
+position = Vector2(3, -11)
 
 [node name="Hud" parent="." instance=ExtResource("7_ksysc")]
 

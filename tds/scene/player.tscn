@@ -1,0 +1,190 @@
+[gd_scene load_steps=28 format=3 uid="uid://dqvlh4ydmln8h"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_5ovcq"]
+[ext_resource type="Texture2D" uid="uid://diiw3mrqbnrtd" path="res://assets/player/e/player_E_0.png" id="1_y7k7t"]
+[ext_resource type="Texture2D" uid="uid://beqkv4gmeai1g" path="res://assets/player/e/player_E_1.png" id="2_5lgct"]
+[ext_resource type="Texture2D" uid="uid://4qoo4ervttut" path="res://assets/player/e/player_E_2.png" id="3_sdahu"]
+[ext_resource type="Texture2D" uid="uid://bcbudmivgdkou" path="res://assets/player/se/player_SE_0.png" id="5_qojk4"]
+[ext_resource type="Texture2D" uid="uid://d2xekscbxsqvk" path="res://assets/player/se/player_SE_1.png" id="6_8y84c"]
+[ext_resource type="Texture2D" uid="uid://f5ffn1fcn2w8" path="res://assets/player/se/player_SE_2.png" id="7_kxegd"]
+[ext_resource type="Texture2D" uid="uid://cuqjha2vhioer" path="res://assets/player/s/player_S_0.png" id="8_un810"]
+[ext_resource type="Texture2D" uid="uid://shc8fevjj25w" path="res://assets/player/s/player_S_1.png" id="9_6lkrs"]
+[ext_resource type="Texture2D" uid="uid://0sckqfrl6h1d" path="res://assets/player/s/player_S_2.png" id="10_rslwr"]
+[ext_resource type="Texture2D" uid="uid://qjseahaeyb3q" path="res://assets/player/sw/player_SW_0.png" id="11_fdllb"]
+[ext_resource type="Texture2D" uid="uid://b6lylfppvbswu" path="res://assets/player/sw/player_SW_1.png" id="12_p66fm"]
+[ext_resource type="Texture2D" uid="uid://bxu8h7nin4jpi" path="res://assets/player/sw/player_SW_2.png" id="13_y3p7m"]
+[ext_resource type="Texture2D" uid="uid://blwccssdmvrnr" path="res://assets/player/w/player_W_0.png" id="14_ddivx"]
+[ext_resource type="Texture2D" uid="uid://cdj8mqp87bkca" path="res://assets/player/w/player_W_1.png" id="15_ju3c7"]
+[ext_resource type="Texture2D" uid="uid://drmws6u68ufnd" path="res://assets/player/w/player_W_2.png" id="16_kfdoi"]
+[ext_resource type="Texture2D" uid="uid://boalf20wmix2r" path="res://assets/player/nw/player_NW_0.png" id="17_3coxv"]
+[ext_resource type="Texture2D" uid="uid://nwa53n100yv" path="res://assets/player/nw/player_NW_1.png" id="18_nx1i7"]
+[ext_resource type="Texture2D" uid="uid://b74c31it4ceh7" path="res://assets/player/nw/player_NW_2.png" id="19_r24dh"]
+[ext_resource type="Texture2D" uid="uid://chxhibyphub0d" path="res://assets/player/n/player_N_0.png" id="20_0t7n8"]
+[ext_resource type="Texture2D" uid="uid://c6lsvr5ywwad3" path="res://assets/player/n/player_N_1.png" id="21_0wlu0"]
+[ext_resource type="Texture2D" uid="uid://04l7365pa0o2" path="res://assets/player/n/player_N_2.png" id="22_s0ow1"]
+[ext_resource type="Texture2D" uid="uid://duky4nh1ll0gk" path="res://assets/player/ne/player_NE_0.png" id="23_ivp8m"]
+[ext_resource type="Texture2D" uid="uid://d3qddw4ka2ujs" path="res://assets/player/ne/player_NE_1.png" id="24_jpquw"]
+[ext_resource type="Texture2D" uid="uid://x1ribrxmrokk" path="res://assets/player/ne/player_NE_2.png" id="25_0hop7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gwbqh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_y7k7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_5lgct")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_sdahu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_5lgct")
+}],
+"loop": true,
+"name": &"walk0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_qojk4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_8y84c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_kxegd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_8y84c")
+}],
+"loop": true,
+"name": &"walk1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_un810")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6lkrs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_rslwr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6lkrs")
+}],
+"loop": true,
+"name": &"walk2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_fdllb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_p66fm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_y3p7m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_p66fm")
+}],
+"loop": true,
+"name": &"walk3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_ddivx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ju3c7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_kfdoi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ju3c7")
+}],
+"loop": true,
+"name": &"walk4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_3coxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_nx1i7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_r24dh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_nx1i7")
+}],
+"loop": true,
+"name": &"walk5",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_0t7n8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_0wlu0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_s0ow1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_0wlu0")
+}],
+"loop": true,
+"name": &"walk6",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_ivp8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_jpquw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_0hop7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_jpquw")
+}],
+"loop": true,
+"name": &"walk7",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_257rj"]
+size = Vector2(29, 48)
+
+[node name="player" type="CharacterBody2D"]
+z_index = 1
+collision_layer = 2
+collision_mask = 17
+script = ExtResource("1_5ovcq")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_gwbqh")
+animation = &"walk0"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2.5, 0)
+shape = SubResource("RectangleShape2D_257rj")
+
+[node name="shotTimer" type="Timer" parent="."]
+wait_time = 0.3
+
+[connection signal="timeout" from="shotTimer" to="." method="_on_shot_timer_timeout"]
